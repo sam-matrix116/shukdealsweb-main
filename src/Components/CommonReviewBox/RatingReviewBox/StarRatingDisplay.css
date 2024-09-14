@@ -1,0 +1,27 @@
+.star-rating {
+	display: inline-flex;
+	align-items: center;
+	font-size: inherit;
+}
+
+.star-container {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.star-icon {
+	font-size: 1em; /* Default size, which will be adjusted by the parent element's font-size */
+}
+
+.filled {
+	color: gold; /* Set the color to gold for filled stars */
+}
+
+.empty {
+	color: rgb(181, 180, 180); /* Set the color to gray for unfilled stars */
+}
+
+.rating-value {
+	margin-left: 5px;
+	font-weight: bold;
+}

@@ -1,0 +1,54 @@
+#category .drop-icon,
+#sorting .drop-icon,
+#filters .drop-icon {
+	transition: all 0.3s;
+}
+
+#category[aria-expanded='true'] .drop-icon,
+#sorting[aria-expanded='true'] .drop-icon,
+#filters[aria-expanded='true'] .drop-icon {
+	transform: rotate(180deg);
+}
+
+.category-dropdown input,
+.sorting-dropdown input,
+.filter-dropdown input {
+	width: 20px;
+	height: 20px;
+	accent-color: var(--queenblue);
+}
+
+.category-dropdown input:checked ~ label,
+.sorting-dropdown input:checked ~ label,
+.filter-dropdown input:checked ~ label {
+	color: var(--queenblue);
+	font-weight: 500;
+}
+
+.category-dropdown {
+	border-radius: 0 0 10px 10px;
+}
+
+.sorting-dropdown {
+	border-radius: 0 0 10px 10px;
+}
+
+.filter-dropdown {
+	border-radius: 10px 0px 10px 10px;
+}
+
+.filter-dropdown .nav-tabs {
+	background: #f4f4f4;
+}
+
+.filter-dropdown .nav-tabs .nav-link {
+	border: 0;
+	color: var(--gray2);
+	width: 100%;
+	text-align: left;
+	padding: 12px 40px 12px 20px;
+	background-image: url(../../Images/img/icon/arrowright2.svg);
+	background-repeat: no-repeat;
+	background-position: right 5px center;
+	background-size: 15px;
+}

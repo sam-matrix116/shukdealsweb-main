@@ -1,0 +1,104 @@
+/* horizontalCarousel.css */
+.carousel-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Center the single card horizontally */
+  }
+  
+  .carousel-wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	position: relative;
+  }
+  
+  .carousel-content-wrapper {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 25px;
+  }
+  
+  .carousel-content {
+	display: flex;
+	transition: all 150ms linear;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+  }
+  
+  /* hide scrollbar in webkit browser */
+  .carousel-content::-webkit-scrollbar,
+  .carousel-content::-webkit-scrollbar {
+	display: none;
+  }
+  
+  .carousel-content > * {
+	flex-shrink: 0;
+	flex-grow: 1;
+  }
+  
+  /* Responsive styles */
+  .carousel-content.show-1 {
+	width: calc(100% / 4.2);
+  }
+  
+  .carousel-content.show-2 > * {
+	width: calc(100% / 2.3);
+  }
+  
+  .carousel-content.show-3 > * {
+	width: calc(100% / 3.3);
+  }
+  
+  .carousel-content.show-4 > * {
+	width: calc(100% / 4.2);
+  }
+  
+  .carousel-content.show-5 > * {
+	width: calc(100% / 5.2);
+  }
+  
+  .left-arrow,
+  .right-arrow {
+	position: absolute;
+	z-index: 1;
+	top: 45%;
+	transform: translateY(-60%);
+	width: 48px;
+	height: 48px;
+	background-color: transparent;
+	border: 0px;
+  }
+  
+  .left-arrow {
+	left: -50px;
+  }
+  
+  .right-arrow {
+	right: -50px;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media screen and (max-width: 768px) {
+	.carousel-content.show-1 {
+	  width: calc(100% / 2.2);
+	}
+  
+	.carousel-content.show-2 > * {
+	  width: calc(100% / 1.5);
+	}
+  
+	.carousel-content.show-3 > * {
+	  width: calc(100% / 2.2);
+	}
+  
+	.carousel-content.show-4 > * {
+	  width: calc(100% / 2.8);
+	}
+  
+	.carousel-content.show-5 > * {
+	  width: calc(100% / 3.5);
+	}
+  }
+  

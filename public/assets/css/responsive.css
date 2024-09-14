@@ -1,0 +1,465 @@
+/*------------------------------------*\
+    RESPONSIVE MIN WIDTH
+\*------------------------------------*/
+
+@media (min-width:1251px) {
+	.nav-slider .owl-theme .owl-nav {
+		width: calc(100% + 70px);
+		left: -35px;
+	}
+
+	.wishlist-table tbody tr td:nth-child(2)>div {
+		max-width: 300px;
+	}
+
+
+}
+
+@media (min-width:1025px) {}
+
+
+@media(min-width:992px) {
+
+	.popup-md .deal-slider.owl-carousel .deal-item img {
+		min-height: 370px;
+		object-fit: cover;
+	}
+
+	.media-column>div {
+		min-height: 206px;
+	}
+
+}
+
+@media(min-width:768px) {
+
+	.header .location::before {
+		content: '';
+		width: 1px;
+		height: 70%;
+		background-color: var(--gray3);
+		position: absolute;
+		top: 9px;
+	}
+
+	.find-job .job-location::before {
+		content: '';
+		width: 1px;
+		height: 70%;
+		background-color: var(--gray3);
+		position: absolute;
+		top: 9px;
+	}
+
+	.find-job button {
+		padding: 15px 33px !important;
+	}
+
+	.modal.apply-modal button.close {
+		position: absolute;
+		right: -30px;
+		top: -15px;
+	}
+
+	.outside-close {
+		position: absolute;
+		right: -30px;
+		top: -15px;
+	}
+
+
+}
+
+
+/*------------------------------------*\
+    RESPONSIVE MAX WIDTH
+\*------------------------------------*/
+@media only screen and (max-width:1250px) {
+
+	.profile-ngo-box {
+		max-width: 200px;
+	}
+
+}
+
+@media only screen and (max-width:1024px) {
+
+	.wishlist-table {
+		display: block;
+		overflow-x: scroll;
+
+	}
+
+	.wishlist-table tbody {
+		display: block;
+		width: 950px;
+	}
+
+	.wishlist-table tbody td {
+		padding: 10px;
+	}
+
+	.wishlist-table tbody td:nth-child(2) {
+		width: 300px;
+	}
+
+	.payment-table tbody {
+		width: 805px;
+	}
+
+	.profile-top-content a img {
+		max-width: 20px;
+	}
+
+	.profile-top-content .profile-ngo-box h6 {
+		font-size: 11px;
+		line-height: 16px;
+	}
+
+	.main.main-login {
+		min-height: calc(100vh - 125px);
+	}
+
+	.main:not(.main-login) {
+		min-height: calc(100vh - 500px);
+	}
+
+	.redeem-btn {
+		font-size: 15px;
+		padding: 6px 9px;
+	}
+
+	.deal-column .fs-14 {
+		font-size: 13px;
+	}
+
+	.blog-menu {
+		font-size: 16px;
+		gap: 10px !important;
+	}
+
+	.wish-table-img-round {
+		min-width: 80px;
+		height: 80px;
+		object-fit: cover;
+		width: 50px;
+	}
+
+}
+
+
+
+@media only screen and (max-width:991px) {
+
+	.wishlist-menu li a {
+		font-size: 14px;
+	}
+
+	.wishlist-menu {
+		padding-bottom: 0px;
+	}
+
+	.wishlist-menu li a {
+		padding-bottom: 5px;
+	}
+
+	.payment-summary h3 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.payment-summary h5 {
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.payment-summary form h6 {
+		font-size: 14px;
+	}
+
+	.outside-close {
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		z-index: 1;
+	}
+
+	.outside-close {
+		filter: invert(37%) sepia(16%) saturate(1730%) hue-rotate(171deg) brightness(87%) contrast(83%);
+	}
+
+	.footer:not(.footer-login) {
+		padding-bottom: 75px;
+	}
+
+	.media-column {
+		flex: 0 0 auto;
+		width: 33.33333333%;
+	}
+
+}
+
+
+
+@media only screen and (max-width:767px) {
+	.signup-column {
+		background: transparent;
+	}
+
+	.signup-column-right {
+		background: var(--gray4);
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+
+	.nav-slider .offer-slider .owl-stage {
+		left: -25px;
+	}
+
+	.nav-slider .ngo-slider .owl-stage {
+		left: -15px;
+	}
+
+	.offer-img {
+		height: 215px;
+	}
+
+	.ngo-column .rating img {
+		width: 10px;
+	}
+
+	.profile-dp img {
+		width: 100px;
+		height: 100px;
+		margin-top: -30px;
+	}
+
+	.profile-ngo-box>div {
+		border-radius: 8px;
+	}
+
+	.profile-ngo-box img {
+		width: 21px;
+		height: 21px;
+		margin: 0 !important;
+	}
+
+	.banner-location img {
+		width: 12px;
+	}
+
+	.profile-site-logo {
+		width: 15px;
+		margin-top: 2px;
+	}
+
+	.profile-top-content .button,
+	.redeem-btn {
+		font-size: 10px;
+		line-height: 14px;
+		padding: 3px 5px !important;
+		line-height: 14px;
+	}
+
+	.profile-top-content .button img,
+	.redeem-btn img {
+		margin-right: 2px;
+		width: 12px;
+	}
+
+	.flag-btn img {
+		height: 17px;
+	}
+
+	.flag-btn {
+		width: 35px;
+		height: 27px;
+	}
+
+	.fs-16 {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.profile-banner img {
+		height: 100px;
+	}
+
+	.modal.apply-modal button.close {
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		z-index: 99999;
+	}
+
+	.apply-modal button img {
+		filter: invert(37%) sepia(16%) saturate(1730%) hue-rotate(171deg) brightness(87%) contrast(83%);
+	}
+
+	.cover-picture .upload-file {
+		height: 100px;
+	}
+
+	.profile-thumb .profile-pic,
+	.profile-thumb {
+		margin-top: -25px;
+		width: 100px;
+		height: 100px;
+	}
+
+	.profile-upload {
+		width: 100px;
+		height: 50px;
+	}
+
+	.profile-upload img {
+		width: 20px;
+	}
+
+	.edit-banner::before,
+	.edit-banner img.banner-img {
+		height: 100px;
+		;
+	}
+
+	.profile-top-content .bg-blue {
+		height: 28px;
+	}
+
+	.media-column {
+		flex: 1 0 0%;
+		width: auto;
+	}
+
+	.wish-table-img-round {
+		min-width: 50px;
+		height: 50px;
+		object-fit: cover;
+		width: 50px;
+	}
+
+}
+
+@media only screen and (max-width:575px) {
+	.fs-sm-24 {
+		font-size: 24px;
+		line-height: 26px;
+	}
+
+	.fs-sm-22 {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.fs-sm-18 {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.fs-sm-16 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.fs-sm-14,
+	body {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.fs-sm-13 {
+		font-size: 13px;
+		line-height: 18px;
+	}
+
+	.fs-sm-12 {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.fs-sm-11 {
+		font-size: 11px;
+		line-height: 15px;
+	}
+
+	.fs-sm-10 {
+		font-size: 10px;
+		line-height: 13px;
+	}
+
+	.fs-sm-9 {
+		font-size: 9px;
+		line-height: 11px;
+	}
+
+	.icon-30 {
+		width: 24px;
+		height: 24px;
+		padding: 6px;
+	}
+
+	.deals-column>img {
+		height: 100px;
+	}
+
+	.deal-column .row>* {
+		padding-bottom: 3px;
+	}
+
+	.deal-column .row img {
+		width: 10px;
+	}
+
+	.home-nonclub-member,
+	.home-club-member {
+		padding: 5px !important;
+	}
+
+	.deal-column .home-box-banner {
+		height: 100px;
+	}
+
+	.paginations a {
+		padding: 5px 10px;
+		font-size: 12px;
+		border-radius: 5px;
+		vertical-align: middle;
+		min-width: 35px;
+	}
+
+	.paginations>span {
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	.paginations .prev-btn i,
+	.paginations .next-btn i {
+		font-size: 10px;
+		line-height: 16px;
+		padding: 0 !important;
+	}
+
+	.paginations .prev-btn,
+	.paginations .next-btn {
+		font-size: 0;
+		text-align: center;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.blog-item>img {
+		width: 100px !important;
+		height: 80px;
+	}
+
+	.profile-top-content .button,
+	.redeem-btn {
+		font-size: 9px;
+		line-height: 12px;
+		padding: 5px 6px !important;
+		margin-bottom: 5px;
+		min-height: 23px;
+	}
+}

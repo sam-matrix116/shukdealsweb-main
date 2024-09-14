@@ -1,0 +1,74 @@
+/* toast success */
+.toast-success-container {
+	color: #fefefe !important;
+	border-radius: 8px !important;
+	background: #4f7fb6 !important;
+	border: 1px solid #4f7fb6 !important;
+	box-shadow: 0px 1px 5px rgba(248, 175, 175, 0.1) !important;
+}
+
+.toast-success-container-after {
+	overflow: hidden;
+	position: relative;
+}
+
+.toast-success-container-after::after {
+	top: 0;
+	left: 0;
+	content: '';
+	width: 7px;
+	height: 100%;
+	position: absolute;
+	display: inline-block;
+	background-color: #3b618b;
+}
+
+/* toast Error */
+.toast-error-container {
+	color: #fefefe !important;
+	border-radius: 8px !important;
+	background: #eb2829 !important;
+	border: 1px solid #eb2829 !important;
+	box-shadow: 0px 1px 5px rgba(248, 175, 175, 0.1) !important;
+}
+
+.toast-error-container-after {
+	overflow: hidden;
+	position: relative;
+}
+
+.toast-error-container-after::after {
+	top: 0;
+	left: 0;
+	content: '';
+	width: 7px;
+	height: 100%;
+	position: absolute;
+	display: inline-block;
+	background-color: #fbd4d4;
+}
+
+/* toast Info */
+.toast-info-container {
+	color: #fefefe !important;
+	border-radius: 8px !important;
+	background: #c0a50a !important;
+	border: 1px solid #c0a50a !important;
+	box-shadow: 0px 1px 5px rgba(248, 175, 175, 0.1) !important;
+}
+
+.toast-info-container-after {
+	overflow: hidden;
+	position: relative;
+}
+
+.toast-info-container-after::after {
+	top: 0;
+	left: 0;
+	content: '';
+	width: 7px;
+	height: 100%;
+	position: absolute;
+	display: inline-block;
+	background-color: #ffd500;
+}
